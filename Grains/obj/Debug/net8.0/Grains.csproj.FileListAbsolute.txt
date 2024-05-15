@@ -1,0 +1,15 @@
+/Users/zozza/RiderProjects/OrleansDemo/Grains/bin/Debug/net8.0/Grains.deps.json
+/Users/zozza/RiderProjects/OrleansDemo/Grains/bin/Debug/net8.0/Grains.dll
+/Users/zozza/RiderProjects/OrleansDemo/Grains/bin/Debug/net8.0/Grains.pdb
+/Users/zozza/RiderProjects/OrleansDemo/Grains/bin/Debug/net8.0/Abstraction.dll
+/Users/zozza/RiderProjects/OrleansDemo/Grains/bin/Debug/net8.0/Abstraction.pdb
+/Users/zozza/RiderProjects/OrleansDemo/Grains/obj/Debug/net8.0/Grains.csproj.AssemblyReference.cache
+/Users/zozza/RiderProjects/OrleansDemo/Grains/obj/Debug/net8.0/Grains.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zozza/RiderProjects/OrleansDemo/Grains/obj/Debug/net8.0/Grains.AssemblyInfoInputs.cache
+/Users/zozza/RiderProjects/OrleansDemo/Grains/obj/Debug/net8.0/Grains.AssemblyInfo.cs
+/Users/zozza/RiderProjects/OrleansDemo/Grains/obj/Debug/net8.0/Grains.csproj.CoreCompileInputs.cache
+/Users/zozza/RiderProjects/OrleansDemo/Grains/obj/Debug/net8.0/Grains.csproj.Up2Date
+/Users/zozza/RiderProjects/OrleansDemo/Grains/obj/Debug/net8.0/Grains.dll
+/Users/zozza/RiderProjects/OrleansDemo/Grains/obj/Debug/net8.0/refint/Grains.dll
+/Users/zozza/RiderProjects/OrleansDemo/Grains/obj/Debug/net8.0/Grains.pdb
+/Users/zozza/RiderProjects/OrleansDemo/Grains/obj/Debug/net8.0/ref/Grains.dll

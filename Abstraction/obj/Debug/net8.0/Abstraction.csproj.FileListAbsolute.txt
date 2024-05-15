@@ -1,0 +1,12 @@
+/Users/zozza/RiderProjects/OrleansDemo/Abstraction/bin/Debug/net8.0/Abstraction.deps.json
+/Users/zozza/RiderProjects/OrleansDemo/Abstraction/bin/Debug/net8.0/Abstraction.dll
+/Users/zozza/RiderProjects/OrleansDemo/Abstraction/bin/Debug/net8.0/Abstraction.pdb
+/Users/zozza/RiderProjects/OrleansDemo/Abstraction/obj/Debug/net8.0/Abstraction.csproj.AssemblyReference.cache
+/Users/zozza/RiderProjects/OrleansDemo/Abstraction/obj/Debug/net8.0/Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zozza/RiderProjects/OrleansDemo/Abstraction/obj/Debug/net8.0/Abstraction.AssemblyInfoInputs.cache
+/Users/zozza/RiderProjects/OrleansDemo/Abstraction/obj/Debug/net8.0/Abstraction.AssemblyInfo.cs
+/Users/zozza/RiderProjects/OrleansDemo/Abstraction/obj/Debug/net8.0/Abstraction.csproj.CoreCompileInputs.cache
+/Users/zozza/RiderProjects/OrleansDemo/Abstraction/obj/Debug/net8.0/Abstraction.dll
+/Users/zozza/RiderProjects/OrleansDemo/Abstraction/obj/Debug/net8.0/refint/Abstraction.dll
+/Users/zozza/RiderProjects/OrleansDemo/Abstraction/obj/Debug/net8.0/Abstraction.pdb
+/Users/zozza/RiderProjects/OrleansDemo/Abstraction/obj/Debug/net8.0/ref/Abstraction.dll

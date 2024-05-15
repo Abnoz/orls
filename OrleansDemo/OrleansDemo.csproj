@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Abstraction\Abstraction.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="13.0.1" />
+      <PackageReference Include="Microsoft.Orleans.Client" Version="8.1.0" />
+      <PackageReference Include="Microsoft.Orleans.Clustering.AdoNet" Version="8.1.0" />
+      <PackageReference Include="Microsoft.Orleans.Sdk" Version="8.1.0" />
+      <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Components\Pages\Weather.razor" />
+    </ItemGroup>
+
+</Project>

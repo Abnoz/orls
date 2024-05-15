@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/zozza/RiderProjects/OrleansDemo/OrleansDemo/obj/Debug/net8.0/scopedcss/projectbundle/OrleansDemo.bundle.scp.css",
+      "PackagePath": "staticwebassets/OrleansDemo.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/zozza/RiderProjects/OrleansDemo/OrleansDemo/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/zozza/RiderProjects/OrleansDemo/OrleansDemo/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/zozza/RiderProjects/OrleansDemo/OrleansDemo/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/zozza/RiderProjects/OrleansDemo/OrleansDemo/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.OrleansDemo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.OrleansDemo.props",
+      "PackagePath": "build\\OrleansDemo.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.OrleansDemo.props",
+      "PackagePath": "buildMultiTargeting\\OrleansDemo.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.OrleansDemo.props",
+      "PackagePath": "buildTransitive\\OrleansDemo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

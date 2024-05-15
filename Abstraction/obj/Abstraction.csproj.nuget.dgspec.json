@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/zozza/RiderProjects/OrleansDemo/Abstraction/Abstraction.csproj": {}
+  },
+  "projects": {
+    "/Users/zozza/RiderProjects/OrleansDemo/Abstraction/Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zozza/RiderProjects/OrleansDemo/Abstraction/Abstraction.csproj",
+        "projectName": "Abstraction",
+        "projectPath": "/Users/zozza/RiderProjects/OrleansDemo/Abstraction/Abstraction.csproj",
+        "packagesPath": "/Users/zozza/.nuget/packages/",
+        "outputPath": "/Users/zozza/RiderProjects/OrleansDemo/Abstraction/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/zozza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Orleans.Sdk": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/zozza/.dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
