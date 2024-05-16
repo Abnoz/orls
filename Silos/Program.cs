@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using System.Net;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -24,7 +25,7 @@ static async Task<IHost> StartSiloAsync()
 {
     IConfigurationRoot configuration = new ConfigurationBuilder()
         .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
-        .AddJsonFile("appsettings.json", false, true)
+        .AddJsonFile("/Users/zozza/RiderProjects/OrleansDemo/Silos/appsettings.json", false, true)
         .Build();
 
     string sqlServerConnectionString = configuration["ConnectionStrings:SqlServerConnectionString"] ?? string.Empty;
@@ -39,7 +40,7 @@ static async Task<IHost> StartSiloAsync()
                     options.ConnectionString = sqlServerConnectionString;
                     options.Invariant = "System.Data.SqlClient";
                 })
-                
+
                 .AddAdoNetGrainStorage("demoGrainStorage", options =>
                 {
                     options.ConnectionString = sqlServerConnectionString;
@@ -49,9 +50,17 @@ static async Task<IHost> StartSiloAsync()
                 {
                     options.ClusterId = "dev";
                     options.ServiceId = "zozzo";
-                    
+
                 })
                 .ConfigureLogging(logging => logging.AddConsole())
+                .Configure<EndpointOptions>(options =>
+                {
+                    options.SiloListeningEndpoint = new IPEndPoint(IPAddress.Loopback, 11111);
+                    options.GatewayListeningEndpoint = new IPEndPoint(IPAddress.Loopback, 30000);
+                    options.AdvertisedIPAddress = IPAddress.Loopback;
+                    options.SiloPort = 11111;
+                    options.GatewayPort = 30000;
+                })
                 .UseDashboard(options =>
                 {
                     options.Username = "username";
@@ -62,7 +71,6 @@ static async Task<IHost> StartSiloAsync()
                     options.CounterUpdateIntervalMs = 1000;
                 });
         });
-    
     var host = builder.Build();
     await host.StartAsync();
     return host;
