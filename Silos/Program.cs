@@ -24,7 +24,7 @@ static async Task<IHost> StartSiloAsync()
 {
     IConfigurationRoot configuration = new ConfigurationBuilder()
         .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
-        .AddJsonFile("/Users/zozza/RiderProjects/OrleansDemo/Silos/appsettings.json", false, true)
+        .AddJsonFile("appsettings.json", false, true)
         .Build();
 
     string sqlServerConnectionString = configuration["ConnectionStrings:SqlServerConnectionString"] ?? string.Empty;

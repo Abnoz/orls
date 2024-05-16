@@ -1,0 +1,6 @@
+﻿services:
+  silos:
+    image: silos
+    build:
+      context: .
+      dockerfile: Dockerfile
