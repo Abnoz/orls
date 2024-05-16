@@ -1,6 +1,35 @@
 ﻿services:
   silos:
     image: silos
+    ports:
+      - "3600:3600"
+    networks:
+      - orleans-network
     build:
       context: .
       dockerfile: Dockerfile
+    
+  orleans-sqlserver-staging:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: compta-sqlserver-staging
+    restart: unless-stopped
+    ports:
+      - "1247:1433"
+    networks:
+      - orleans-network
+    hostname: orleans-sqlserver
+    volumes:
+      - orleans-sqlsystem-staging:/var/opt/mssql/
+      - orleans-sqldata-staging:/var/opt/sqlserver/data
+      - orleans-sqllog-staging:/var/opt/sqlserver/log
+      - orleans-sqlbackup-staging:/var/opt/sqlserver/backup
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Anis2004#
+volumes:
+    orleans-sqlsystem-staging:
+    orleans-sqldata-staging:
+    orleans-sqllog-staging:
+    orleans-sqlbackup-staging:
+networks:
+  orleans-network:
