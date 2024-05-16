@@ -14,7 +14,7 @@
     container_name: compta-sqlserver-staging
     restart: unless-stopped
     ports:
-      - "1247:1433"
+      - "1433:1433"
     networks:
       - orleans-network
     hostname: orleans-sqlserver
