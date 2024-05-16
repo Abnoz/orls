@@ -13,3 +13,4 @@
 /Users/zozza/RiderProjects/OrleansDemo/Grains/obj/Debug/net8.0/refint/Grains.dll
 /Users/zozza/RiderProjects/OrleansDemo/Grains/obj/Debug/net8.0/Grains.pdb
 /Users/zozza/RiderProjects/OrleansDemo/Grains/obj/Debug/net8.0/ref/Grains.dll
+/Users/zozza/RiderProjects/OrleansDemo/Grains/obj/Debug/net8.0/Grains.sourcelink.json
