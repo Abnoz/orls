@@ -5,6 +5,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{C848E6F3-440C-4AD3-9D8A-5A0D4D2BC198}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrleansCluster", "OrleansCluster", "{F66CB51D-CEA3-48FD-A9E5-EA58F3EF69E1}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		.dockerignore = .dockerignore
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "Abstraction\Abstraction.csproj", "{41D81022-1E7F-4493-B614-BE10A8B3FD73}"
 EndProject

@@ -10,3 +10,4 @@
 /Users/zozza/RiderProjects/OrleansDemo/Abstraction/obj/Debug/net8.0/refint/Abstraction.dll
 /Users/zozza/RiderProjects/OrleansDemo/Abstraction/obj/Debug/net8.0/Abstraction.pdb
 /Users/zozza/RiderProjects/OrleansDemo/Abstraction/obj/Debug/net8.0/ref/Abstraction.dll
+/Users/zozza/RiderProjects/OrleansDemo/Abstraction/obj/Debug/net8.0/Abstraction.sourcelink.json
